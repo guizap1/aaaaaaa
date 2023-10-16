@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+.presence-table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+.presence-table th,
+.presence-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.presence-table th {
+  background-color: #f2f2f2;
+}
+
+.presence-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.presence-table tr:hover {
+  background-color: #ddd;
+}
+
+.content {
+  text-align: center;
+  margin-top: 20px; /* Espaço superior para a imagem */
+}
+
+.centered-image {
+  max-width: 100%;
+} /* Para garantir que a imagem não ultrapasse a largura da div */

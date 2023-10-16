@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets\css\chamada.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets\css\cabecalho.css">
+
+  <title>Imel - Chamada</title>
+
+  <script>
+    hoje = new Date();
+  </script>
+</head>
+
+<body>
+
+  <!--Nav Bar-->
+  <header class="header">
+    <nav class="navbar">
+        <a href="menu.html" class="logo">Imel</a>
+        <ul class="nav-menu">
+            <li class="nav-item"><a href="alunos.html" class="nav-link">Alunos</a></li>
+            <li class="nav-item"><a href="chamada.html" class="nav-link">Chamada</a></li>
+
+            <li class="nav-item">
+                <a href="#" class="nav-link">Usuários</a>
+                <div class="dropdown-menu">
+                    <a href="#" class="dropdown-option">Usuários Ativos</a>
+                    <a href="cadastro_usuarios.html" class="dropdown-option">Cadastrar Usuário</a>
+                    <a href="editar_usuarios.html" class="dropdown-option">Editar Usuários</a>
+                </div>
+            </li>
+
+            <li class="nav-item"><a href="eventos.html" class="nav-link">Eventos</a></li>
+            <li class="nav-item"><a href="config.html" class="nav-link">Configurações</a></li>
+            <li class="nav-item"><a href="login.html" class="nav-link"
+                    onclick='window.alert("Volte Sempre!")'>Sair</a></li>
+        </ul>
+        <div class="ham">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+</header>
+  <!--Nav Bar-->
+
+  <!--Conteudo-->
+  <section>
+    <main class="main">
+      <div class="container">
+        
+        
+        <div class="box ">
+          
+          
+          <table>
+            <caption>Chamada turma A </caption>
+          
+            <thead>
+              <tr>
+                <th class="titulo">Id</th>
+                <th class="titulo">Nomes</th>
+                <th class="titulo">Presença</th>
+                
+              </tr>
+            </thead>
+          
+            <tbody class="conteudo">
+              <tr>
+                <td>012</td>
+                <td>Thiago</td>
+                <td> <input type="checkbox" name="cor" value="vermelho" checked></td>
+               
+              </tr>
+              <tr>
+                <td>321</td>
+                <td>Davi</td>
+                <td><input type="checkbox" name="cor" value="vermelho" checked></td>
+              </tr>
+              <tr>
+                <td>533</td>
+                <td>Fernando</td>
+                <td><input type="checkbox" name="cor" value="vermelho" checked></td>
+              </tr>
+              <tr>
+                <td>234</td>
+                <td>Renan</td>
+                <td><input type="checkbox" name="cor" value="vermelho" checked></td>
+              </tr>
+              <tr>
+                <td>213</td>
+                <td>Cassio</td>
+                <td><input type="checkbox" name="cor" value="vermelho" checked></td>
+              </tr>
+              <tr>
+                <td>879</td>
+                <td>Davi</td>
+                <td><input type="checkbox" name="cor" value="vermelho" checked></td>
+              </tr>
+              <tr>
+                <td>1233</td>
+                <td>Felipe</td>
+                <td><input type="checkbox" name="cor" value="vermelho" checked></td>
+              </tr>
+              <tr>
+                <td>098</td>
+                <td>Joao</td>
+                <td><input type="checkbox" name="cor" value="vermelho" checked></td>
+              </tr>
+              <tr>
+                <td>952</td>
+                <td>Adilson</td>
+                <td><input type="checkbox" name="cor" value="vermelho" checked></td>
+              </tr>
+            </tbody>
+          
+            <tfoot>
+              <tr>
+                <td class="rodape">...</td>
+                <td class="rodape">...</td>
+                <td class="rodape">... </td>
+              </tr>
+            </tfoot>
+          </table>
+        
+        </div>
+
+        <div class="salvar">
+          <button class="nextBtn" href="#">
+            <span class="btnText">Salvar</span>
+        </button>
+
+        </div>
+      </div>
+
+  </section>
+
+
+
+
+  </main>
+  <!--Conteudo-->
+
+  <footer class="footer">
+    <p>Instituto Meninos do Lago © 2023</p>
+  </footer>
+
+  <script src="assets\js\chamada.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
